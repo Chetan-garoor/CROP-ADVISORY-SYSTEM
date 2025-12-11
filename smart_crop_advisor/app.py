@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # -----------------------------
-# Load ML Model + Label Encoder
+# Load ML Model + Label Encoder.
 # -----------------------------
 MODEL_PATH = "C:\\Users\\Chetan\\OneDrive\\Desktop\\crop\\Models\\crop_recommendation\\crop_label_encoder.joblib"
 ENCODER_PATH ="C:\\Users\\Chetan\\OneDrive\\Desktop\\crop\\Models\\crop_recommendation\\crop_recommender_model.joblib"
